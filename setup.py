@@ -1,7 +1,7 @@
 from setuptools import setup
 from wakatime.install_cli import main
 
-version_info = ("14", "0", "0")
+version_info = ("14", "0", "1")
 about = {
     "title": "wakatime",
     "description": "Command line interface to WakaTime used by all WakaTime text editor plugins.",
