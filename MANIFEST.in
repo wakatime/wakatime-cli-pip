@@ -1,1 +1,2 @@
-include README.md LICENSE install_cli.py run.py
+include README.md LICENSE
+recursive-include wakatime *.py

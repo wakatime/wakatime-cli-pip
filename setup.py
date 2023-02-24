@@ -1,5 +1,5 @@
 from setuptools import setup
-from install_cli import main
+from wakatime.install_cli import main
 
 version_info = ("14", "0", "0")
 about = {
@@ -30,7 +30,7 @@ setup(
     zip_safe=False,
     platforms="any",
     entry_points={
-        "console_scripts": ["wakatime = run:main"],
+        "console_scripts": ["wakatime = wakatime.__init__:main"],
     },
     classifiers=[
         "Development Status :: 5 - Production/Stable",

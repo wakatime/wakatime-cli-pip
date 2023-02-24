@@ -1,5 +1,5 @@
 import sys
-from install_cli import getCliLocation, Popen
+from .install_cli import getCliLocation, Popen
 
 
 def main():
