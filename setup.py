@@ -26,6 +26,8 @@ setup(
     author=about["author"],
     author_email=about["author_email"],
     url=about["url"],
+    packages=[about["title"]],
+    package_dir={about["title"]: about["title"]},
     include_package_data=True,
     zip_safe=False,
     platforms="any",
